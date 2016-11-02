@@ -1,0 +1,22 @@
+{
+  "name": "NonCoalescingDispatchQueue",
+  "version": "0.1.0",
+  "summary": "A short description of NonCoalescingDispatchQueue.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NonCoalescingDispatchQueue",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Brian Semiglia": "brian.semiglia@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NonCoalescingDispatchQueue.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NonCoalescingDispatchQueue/Classes/**/*"
+}

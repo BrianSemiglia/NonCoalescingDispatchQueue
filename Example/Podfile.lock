@@ -1,0 +1,16 @@
+PODS:
+  - NonCoalescingDispatchQueue (0.1.0)
+
+DEPENDENCIES:
+  - NonCoalescingDispatchQueue (from `../`)
+
+EXTERNAL SOURCES:
+  NonCoalescingDispatchQueue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NonCoalescingDispatchQueue: 54f24bdf106201e9377a7d4bb8086304326080b1
+
+PODFILE CHECKSUM: d245502bfb9c3402c16f068d25d56eb3c4523b70
+
+COCOAPODS: 1.1.1
