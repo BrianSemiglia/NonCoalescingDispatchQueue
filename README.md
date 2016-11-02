@@ -9,7 +9,7 @@ GCD likes to coalesce calls to -dispatchAfter. NonCoalescingDispatchQueue avoids
 
 ## Example
 
-```
+```swift
 NonCoalescingDispatchQueue(
   events: @[
     NonCoalescingDispatchQueue.Event(
