@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NonCoalescingDispatchQueue_Example' do
+  pod 'NonCoalescingDispatchQueue', :path => '../'
+
+  target 'NonCoalescingDispatchQueue_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
