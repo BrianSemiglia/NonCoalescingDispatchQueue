@@ -13,19 +13,19 @@ GCD likes to coalesce calls to -dispatchAfter. NonCoalescingDispatchQueue avoids
 NonCoalescingDispatchQueue(
   events: @[
     NonCoalescingDispatchQueue.Event(
-      delay: 1,
+      delay: 1.00,
       action: { 
         print("hi") 
       }
     ),
     NonCoalescingDispatchQueue.Event(
-      delay: 1.002,
+      delay: 1.03,
       action: { 
         print("hola")
       }
     ),
     NonCoalescingDispatchQueue.Event(
-      delay: 1.004,
+      delay: 1.05,
       action: { 
         print("salut")
       }
