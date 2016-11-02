@@ -27,7 +27,7 @@ NonCoalescingDispatchQueue(
     NonCoalescingDispatchQueue.Event(
       delay: 1.004,
       action: { 
-        print("hola")
+        print("salut")
       }
     )
   ],
