@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/NonCoalescingDispatchQueue.svg?style=flat)](http://cocoapods.org/pods/NonCoalescingDispatchQueue)
 [![Platform](https://img.shields.io/cocoapods/p/NonCoalescingDispatchQueue.svg?style=flat)](http://cocoapods.org/pods/NonCoalescingDispatchQueue)
 
+GCD likes to coalesce calls to -dispatchAfter. NonCoalescingDispatchQueue avoids that coalescence with the use of a CADisplayLink giving you timing accuracy to the 60th of a second.
+
 ## Example
 
 ```
