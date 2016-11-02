@@ -7,7 +7,33 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+NonCoalescingDispatchQueue(
+  events: @[
+    NonCoalescingDispatchQueue.Event(
+      delay: 1,
+      action: { 
+        print("hi") 
+      }
+    ),
+    NonCoalescingDispatchQueue.Event(
+      delay: 1.002,
+      action: { 
+        print("hola")
+      }
+    ),
+    NonCoalescingDispatchQueue.Event(
+      delay: 1.004,
+      action: { 
+        print("hola")
+      }
+    )
+  ],
+  completion: {
+    print("bye")
+  }
+)
+```
 
 ## Requirements
 
