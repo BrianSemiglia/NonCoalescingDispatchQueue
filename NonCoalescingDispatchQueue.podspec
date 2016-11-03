@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NonCoalescingDispatchQueue'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A non-coalescing dispatch queue.'
   s.description      = <<-DESC
     'GCD likes to coalesce calls to -dispatchAfter. This queue avoids that coalescence with the use of a CADisplayLink.'
