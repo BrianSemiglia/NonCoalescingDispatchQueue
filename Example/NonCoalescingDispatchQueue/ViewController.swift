@@ -7,18 +7,41 @@
 //
 
 import UIKit
+import NonCoalescingDispatchQueue
 
 class ViewController: UIViewController {
+  
+  var queue: NonCoalescingDispatchQueue?
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    queue = NonCoalescingDispatchQueue(
+      events: [
+        NonCoalescingDispatchQueue.Event(
+          delay: 1.00,
+          action: {
+            print("hi")
+          }
+        ),
+        NonCoalescingDispatchQueue.Event(
+          delay: 1.03,
+          action: {
+            print("hola")
+          }
+        ),
+        NonCoalescingDispatchQueue.Event(
+          delay: 1.05,
+          action: {
+            print("salut")
+          }
+        )
+      ],
+      completion: {
+        print("bye")
+      }
+    )
+  }
+  
 }
 
