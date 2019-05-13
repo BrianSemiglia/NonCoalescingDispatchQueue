@@ -30,7 +30,7 @@ final public class NonCoalescingDispatchQueue {
     )
     timer?.add(
       to: .main,
-      forMode: .defaultRunLoopMode
+      forMode: RunLoop.Mode.default
     )
   }
   

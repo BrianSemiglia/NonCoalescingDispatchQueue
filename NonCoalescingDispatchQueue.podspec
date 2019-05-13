@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NonCoalescingDispatchQueue'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A non-coalescing dispatch queue.'
   s.description      = <<-DESC
     'GCD likes to coalesce calls to -dispatchAfter. This queue avoids that coalescence with the use of a CADisplayLink.'
@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/briansemiglia/NonCoalescingDispatchQueue.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'NonCoalescingDispatchQueue/Classes/**/*'
+  s.swift_version = '5.0'
 end

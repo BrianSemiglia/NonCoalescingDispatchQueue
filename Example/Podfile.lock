@@ -1,5 +1,5 @@
 PODS:
-  - NonCoalescingDispatchQueue (0.1.0)
+  - NonCoalescingDispatchQueue (0.2.0)
 
 DEPENDENCIES:
   - NonCoalescingDispatchQueue (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NonCoalescingDispatchQueue: 54f24bdf106201e9377a7d4bb8086304326080b1
+  NonCoalescingDispatchQueue: e3cd61aa8261b06970a39f89577a373896f28db6
 
 PODFILE CHECKSUM: d245502bfb9c3402c16f068d25d56eb3c4523b70
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.6.1
